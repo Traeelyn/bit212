@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  border-bottom: 2px #333;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  height: 100px;
+  width: 100px;
+}
+
+.nav-bar {
+  margin-left: 20px;
+}
+
+.nav-bar ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-item a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+  font-size: larger;
+}
+
+.nav-item a:hover {
+  color: #00ff33;
+}
+
+
+
+  /* Table styling */
+  .table-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+    font-size: 0.9em;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  td {
+    color: #666;
+  }
+  
+  tr:first-child, th{
+    background-color: #1fbc19;
+    color: white;
+  }
+  tr:last-child td {
+    border-bottom: none; /* Remove bottom border for the last row */
+  }
+
+ .totalBillTable td {
+    color: white;
+    font-weight: bold;
+    background-color: #167821;
+  }
+  
+  .totalBillLabel {
+    text-align: left;
+    padding-right: 7.5%;
+  }
+
+
+  @media (max-width: 600px) {
+    th, td {
+        padding: 10px;
+    }
+  
+    .tab {
+        padding: 10px 15px;
+    }
+  }
+  
+  
