@@ -24,7 +24,7 @@
             <img src="images/aboutUsPic.jpg" alt="sakae-sushi-aboutUs" class="main-image">
             <div class="overlay">
                 <h1 class="section-title">Welcome to<br><span class="highlight">Sakae Sushi</span></h1>
-                <p>Muslim Friendly cafe serving delicious Chinese food : Hainanese Chicken Rice, such Pan Mee, BBQ Chicken Wantan Mee, Curry Chicken Rice.<br>The best beverage Hainanese Coffee, also known as Kopi STC</p>
+                <p>reshness matters at Sakae Sushi! A hit among Japanese food lovers for its delicious yet affordably-priced fare,.<br>this kaiten sushi-concept restaurant is making waves for the sheer freshness of its sushi. Sakae Sushi’s ingredients are<br>selected from top suppliers around the world and stringently checked to ensure total freshness, quality and nutrition.<br>Our sushi rice also comes with added Vitamin E – the essential vitamin for great skin and a better immune system</p>
             </div>
         </div>
         <div class="section-1">
